@@ -1,0 +1,22 @@
+|maquina_de_estado_finita
+out[0] <= minhaFSM:inst.output[0]
+out[1] <= minhaFSM:inst.output[1]
+out[2] <= minhaFSM:inst.output[2]
+out[3] <= minhaFSM:inst.output[3]
+key => inst3.IN0
+reset => minhaFSM:inst.rst
+sw => minhaFSM:inst.choice
+
+
+|maquina_de_estado_finita|minhaFSM:inst
+clk => current~1.DATAIN
+rst => next_state.s1.DATAB
+rst => Selector0.IN2
+choice => next_state.s2.DATAB
+choice => next_state.s3.DATAB
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

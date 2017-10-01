@@ -1,0 +1,13 @@
+
+State Machine - |REC_PONT_FLUT|minhaFSM:inst5|current
+Name current.s9 current.s8 current.s7 current.s6 current.s5 current.s4 current.s3 current.s2 current.s1 current.s0 
+current.s0 0 0 0 0 0 0 0 0 0 0 
+current.s1 0 0 0 0 0 0 0 0 1 1 
+current.s2 0 0 0 0 0 0 0 1 0 1 
+current.s3 0 0 0 0 0 0 1 0 0 1 
+current.s4 0 0 0 0 0 1 0 0 0 1 
+current.s5 0 0 0 0 1 0 0 0 0 1 
+current.s6 0 0 0 1 0 0 0 0 0 1 
+current.s7 0 0 1 0 0 0 0 0 0 1 
+current.s8 0 1 0 0 0 0 0 0 0 1 
+current.s9 1 0 0 0 0 0 0 0 0 1 
